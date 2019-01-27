@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <title>Kaiser InfoSec FullStack Test</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+  </head>
+  <body id="bod">
+    <h2>Kaiser Country Lookup</h2>
+    <form id="countryForm">
+      <p id="valueField">Search: <input id="valueInput" type="text" name="value" /></p>
+      <p>Sort by:
+      <input type="radio" name="sortBy" value="name"/><label>Name</label>
+      <input type="radio" name="sortBy" value="population" checked="checked"/><label>Population</label>
+    </p>
+    </form>
+    <button id="submitButton">Search By Country Name</button>
+    <button id="submitButtonCode">Search By Country Code</button>
+    <div id="results">
+      <p id="placeholder">Your search results will appear here</p>
+    </div>
+    <script src="./scripts.js"></script>
+  </body>
+</html>
